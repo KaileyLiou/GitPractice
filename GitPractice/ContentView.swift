@@ -10,8 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Text("Change 1")
-            Text("Change 2")
+            Text("Ice Cream!")
             Image("icecream")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
