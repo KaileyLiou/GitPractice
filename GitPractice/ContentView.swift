@@ -10,9 +10,13 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Text("Change 1")
-            Text("Change 2")
-            Text("Change 3")
+            Text("Ice cream!!")
+                .font(.title)
+                .fontWeight(.heavy)
+                .foregroundColor(Color.purple)
+            Image("icecream")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
         }
         .padding()
     }
