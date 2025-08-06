@@ -12,6 +12,9 @@ struct ContentView: View {
         VStack {
             Text("Change 1")
             Text("Change 2")
+            Image("icecream")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
         }
         .padding()
     }
